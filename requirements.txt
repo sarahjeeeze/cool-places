@@ -1,0 +1,7 @@
+Django~=3.2.10
+django-map-widgets
+django-mapbox-location-field
+django-crispy-forms
+opencv-python
+Pillow
+Jinja2

@@ -1,0 +1,13 @@
+{% extends 'main_app/base.html' %}
+{% block content %}
+{% for post in posts %}
+    {% if forloop.counter <= 20 %}
+   {% if post.main_image %}
+        <a href="{% url 'post_detail' pk=post.pk %}">
+            <img src="{{ post.main_image.url }}" width="200px" height="200px">
+        </a>
+        {% endif %}
+    {% endif %}
+</article>
+{% endfor %}
+{% endblock %}

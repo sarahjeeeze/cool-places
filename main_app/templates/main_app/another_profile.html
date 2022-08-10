@@ -1,0 +1,16 @@
+{% extends "main_app/base.html" %}
+{% load static %}
+{% block title %}Profile Page{% endblock title %}
+{% block content %}
+ <h2> <br></h2>
+ <h2> {{  more.username }}  <br>
+  {{ more.bio }} <br>
+  {% if more.avatar %}
+  <img src="{{ more.avatar.url }}" width = "200" height = "200">
+{% endif %} <br>
+<b> Posts </b><br>
+{% for post in more.posts.all %}
+<a href="{% url 'post_detail' pk=post.pk %}">
+<img src="{{ post.main_image.url }}" width = "200" height = "200">{{ comment.created_date }}
+{% endfor %}
+{% endblock content %}
