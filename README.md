@@ -1,4 +1,4 @@
-# Project to compare pyramid with django, with a nice map to display uploaded pics.
+# Project to compare pyramid with django, with some nice map widgets.
 
 ```
 git clone https://github.com/sarahjeeeze/cool-places.git
