@@ -13,4 +13,4 @@ create username and password
 
 Also it will not let you upload pictures with faces in.. my original idea was like an anti facebook thing.
 
-![](/face_error.png)
+![](screenshots/face_error.png)
