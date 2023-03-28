@@ -11,6 +11,6 @@ create username and password
 
 ![](screenshots/map.png)
 
-Also it will not let you upload pictures with faces in.. my original idea was like an anti facebook thing.
+
 
 ![](screenshots/face_error.png)
