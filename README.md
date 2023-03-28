@@ -1,4 +1,4 @@
-# Project to compare pyramid with django, with some nice map widgets.
+# Little project to compare django with pyramids,
 
 ```
 git clone https://github.com/sarahjeeeze/cool-places.git
